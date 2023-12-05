@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+/* background-image: url('bgimg.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  background-color: #292929;
+}
+
+.head{
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.logo{
+  margin: auto;
+  height: 50px;
+  width: 160px;
+  background-image: url('logo.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.box{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+flex-wrap: wrap;
+gap: 10px;
+
+}
+.box1{
+  width: 320px;
+  height: 500px;
+  background-image: url('csm.jpg');
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.box2{
+  width: 320px;
+  height: 500px;
+  background-image: url('ds.jpg');
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3{
+  width: 320px;
+  height: 500px;
+  background-image: url('bl.jpg');
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box4{
+  width: 320px;
+  height: 500px;
+  background-image: url('mha.jpg');
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button{
+  position: relative;
+  margin-top: 135%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.cs{
+    background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.end{
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.name{
+  background-color: rgba(0,0,0,0.5);
+  
+}
+
+.popup{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 30px;
+}
+
+.poptxt{
+  font-size: 18px;
+}
+.popup:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
